@@ -15,9 +15,6 @@ jobs:
       - image: cimg/openjdk:17.0
 
       - image: cimg/mysql:8.0
-        auth:
-          username: root
-          password: root  # context / project UI env-var reference
         environment:
           MYSQL_ROOT_PASSWORD: root
           MYSQL_DATABASE: usermanagement_database
