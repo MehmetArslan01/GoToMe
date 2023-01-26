@@ -18,7 +18,7 @@ jobs:
         environment:
           MYSQL_ROOT_PASSWORD: root
           MYSQL_DATABASE: usermanagement_database
-          MYSQL_USER: root
+          MYSQL_PASSWORD: root
           port: 8080
 
 
