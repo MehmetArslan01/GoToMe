@@ -23,7 +23,7 @@ jobs:
           name: Build
           working_directory: user-management
           command: mvn -B -DskipTests clean package
-      # Then run your tests!
+      # Then run your testss!
       - run:
           name: Test
           working_directory: user-management
