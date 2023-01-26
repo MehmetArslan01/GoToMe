@@ -17,8 +17,8 @@ jobs:
       - image: cimg/mysql:8.0
         environment:
           MYSQL_ROOT_PASSWORD: root
+          MYSQL_USER: root 
           MYSQL_DATABASE: usermanagement_database
-          MYSQL_PASSWORD: root
           port: 8080
 
 
